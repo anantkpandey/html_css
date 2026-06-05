@@ -51,3 +51,28 @@ button:hover {
 .table-wrapper {
   overflow-x:auto;
 }
+
+body {
+  font-family: "Segoe UI", sans-serif; 
+  padding:48px; 
+  background:#eef2ff;
+}
+ul {
+  list-style: square;
+}
+table {
+  margin-top:32px; 
+  border-collapse:collapse; 
+  width:100%; 
+  max-width:640px; 
+  background:#fff;
+}
+th, td {
+  border:1px solid #d9e2ec; 
+  padding:12px 16px; 
+  text-align:left;
+}
+th {
+  background:#6366f1; 
+  color:#fff;
+  }
