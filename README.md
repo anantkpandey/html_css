@@ -1,3 +1,3 @@
 # HTML & CSS
 
-[] Learn HTML & CSS
+[x] Learn HTML & CSS
