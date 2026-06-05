@@ -76,3 +76,9 @@ th {
   background:#6366f1; 
   color:#fff;
   }
+
+  .hero {
+  background:url("images/forest.jpeg") center/cover no-repeat;
+  padding:120px 24px;
+  color:#fff;
+}
