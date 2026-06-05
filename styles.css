@@ -47,3 +47,7 @@ button:hover {
 .pricing tbody tr:nth-child(even) {
   background:#f9fafb;
 }
+
+.table-wrapper {
+  overflow-x:auto;
+}
