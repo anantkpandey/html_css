@@ -119,3 +119,39 @@ th {
 .signup button:hover {
   background:#028a56;
 }
+
+input:invalid {
+  border-color:#dc2626;
+}
+input:valid {
+  border-color:#16a34a;
+}
+
+.form-grid {
+  display:grid; 
+  grid-template-columns:1fr 1fr; 
+  gap:16px;
+}
+.form-grid .full {
+  grid-column: span 2;
+}
+
+.card {
+  overflow:hidden; 
+  background:#fff; 
+  border-radius:18px; 
+  box-shadow:0 20px 40px rgba(15,23,42,0.12); 
+  display:grid; 
+  gap:0;
+}
+.card img {
+  width:100%; 
+  height:auto;
+}
+.card-body {
+  padding:24px 28px;
+}
+.card-body h3 {
+  margin-top:0; 
+  margin-bottom:12px;
+}
